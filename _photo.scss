@@ -1,0 +1,13 @@
+
+img {
+    width: $photo-width;
+    display: block;
+    margin: 10px auto;
+    max-height: 300px;
+    max-width: 600px;
+    transition: transform 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  img:hover {
+    transform: scale(1.05, 1.05);
+  }
